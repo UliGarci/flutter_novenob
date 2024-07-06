@@ -15,8 +15,8 @@ class CardWidget extends StatelessWidget{
                         content: Text('Seleccione a tarjeta'),
                         duration: Duration(seconds:2),
                     ) // SNAKBAR
-                )
+                );
             }
-        )   // ListTitle
+        );   // ListTitle
     }   //Card
 }
