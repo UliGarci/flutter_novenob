@@ -1,3 +1,5 @@
+import 'package:app_novenove/presentation/screens/admin/menu_admin_screen.dart';
+import 'package:app_novenove/presentation/screens/client/home_client_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -16,7 +18,8 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const MenuAdminScreen(title:'UliGarci'),
+      //home: const MenuAdminScreen(title:'UliGarci'),
+      home: const HomeClientScreen(name: 'UliGarci'),
     );
   }
 }

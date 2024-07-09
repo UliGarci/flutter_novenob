@@ -1,3 +1,4 @@
+import 'package:app_novenove/presentation/widgets/card.dart';
 import 'package:flutter/material.dart';
 
 class MenuAdminScreen extends StatelessWidget{
@@ -16,8 +17,8 @@ class MenuAdminScreen extends StatelessWidget{
             body: CardWidget(),
             floatingActionButton: FloatingActionButton(
                 child: const Icon(Icons.add),
-                onPressed:(){}, s
+                onPressed:(){},
             )
-        )
+        );
     }
 }
