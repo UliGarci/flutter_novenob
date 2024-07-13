@@ -7,6 +7,7 @@ class ClientModel{
 
   ClientModel({required this.id, required this.name, required this.email,required this.address, required this.phone});
 
+  // metodo para convertir el objeto json a un ClienModel
   factory ClientModel.fromJson(Map<String, dynamic> json){
     return ClientModel(
         id: json['id'],
